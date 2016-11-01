@@ -1,0 +1,51 @@
+header {
+	background: black;
+	color: white;
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
+
+header h1 {
+	font-size: 4em;
+}
+
+header h2 {
+	font-size: 3em;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+#photos img {
+	display: block;
+	margin-bottom: 30px;
+}
+
+#more-photos {
+	display: none;
+}
+
+#show-less {
+	display: none;
+}
+
+main {
+	float: left;
+	width: 75%;
+}
+
+aside {
+	float: right;
+	width: 25%;
+}
+
+.container:after {
+ clear: both;
+ content: "";
+ display: block;
+ font-size: 0;
+ height: 0;
+ visibility: hidden;
+}
